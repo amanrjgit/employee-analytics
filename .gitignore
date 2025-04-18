@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtual environments
+venv/
+.env/
+
+# Django stuff
+db.sqlite3
+*.pot
+*.pyc
+
+# VS Code
+.vscode/
+
+# IDEs
+.idea/
+*.swp
+
+# Environment
+.env
+
+# Docker
+*.pid
+*.sock
+*.pidfile
+*.db
+docker-compose.override.yml
+
+# Migrations (optional if you recreate them frequently)
+*/migrations/*.py
+*/migrations/*.pyc
